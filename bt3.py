@@ -1,10 +1,8 @@
-student_name = input("Nhap ten sinh vien: ")
-student_age = input("Nhap tuoi: ")
-student_class = input("Nhap lop: ")
+ho_ten = input("Nhập họ và tên bệnh nhân: ")
+ma_benh_an = input("Nhập mã bệnh án: ")
+khoa = input("Nhập khoa/phòng khám: ")
 
-print("\nThong tin sinh vien:")
-print(f"Ten sinh vien: {student_name}")
-print(f"Tuoi: {student_age}")
-print(f"Lop hoc: {student_class}")
-
-print(f"\nChao mung {student_name} den voi mon Python!")
+print("\n=== PHIẾU TIẾP NHẬN ===")
+print("Bệnh nhân:", ho_ten)
+print("Mã bệnh án:", ma_benh_an)
+print("Chuyển tới:", khoa)
